@@ -4,17 +4,17 @@
 #include "resources.h"
 using namespace std;
 
-class TimeMeter
-{
+class TimeMeter {
 public:
-	SYSTEMTIME starttime;
-	SYSTEMTIME endtime;
+    SYSTEMTIME starttime;
+    SYSTEMTIME endtime;
+
 public:
-	TimeMeter();
-	~TimeMeter(){}
-	void Start();
-	void End();
-	void Print();
+    TimeMeter();
+    ~TimeMeter() {}
+    void Start();
+    void End();
+    void Print();
 };
 
 #endif

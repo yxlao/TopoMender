@@ -10,7 +10,7 @@
 #include <vector>
 #include <Windows.h>
 
-typedef	unsigned __int64 UINT64;
+typedef unsigned __int64 UINT64;
 typedef unsigned char UCHAR;
 typedef unsigned int UINT;
 
